@@ -442,7 +442,7 @@
                     if (option.imageData) {
                         const imageAngle = (startAngle + endAngle) / 2;
                         const imageAngleRad = (imageAngle * Math.PI) / 180;
-                        const imageRadius = radius * 0.65; // Position image 65% from center
+                        const imageRadius = radius * 0.75; // Position image 65% from center
                         const imageX = centerX + imageRadius * Math.cos(imageAngleRad);
                         const imageY = centerY + imageRadius * Math.sin(imageAngleRad);
                         
@@ -453,6 +453,9 @@
                         image.setAttribute('width', '50');
                         image.setAttribute('height', '50');
                         image.setAttribute('clip-path', 'inset(0% round 50%)'); // Make it circular
+
+                        image.setAttribute( 'transform', `rotate(${imageAngle - 90} ${imageX} ${imageY})` );
+
                         wheel.appendChild(image);
                     }
 
