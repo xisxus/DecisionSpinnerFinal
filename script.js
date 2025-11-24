@@ -181,8 +181,93 @@ const optionsData33 = [
         imageData: 'svg/other/kegal/ss (16).svg', 
         title: 'cello sex pose', 
         description: 'Stand with your feet shoulder-width apart. Extend your arms overhead, keeping your chest lifted and core engaged. Slowly lean to one side, stretching the side of your body, and hold for a few seconds before switching sides.' 
+    },
+//];
+//    const optionsData = [
+    { 
+        id: Date.now() + 16, 
+        text: '17', 
+        imageData: 'svg/other/kegal/ss (17).svg', 
+        title: 'moonlight sex pose', 
+        description: 'Lie on your back and extend your legs up toward the ceiling while keeping your arms by your sides. Engage your core as you balance on your shoulders. This helps strengthen the core and leg muscles.'
+    },
+    { 
+        id: Date.now() + 17, 
+        text: '18', 
+        imageData: 'svg/other/kegal/ss (18).svg', 
+        title: 'butterfly sex pose', 
+        description: 'Sit with your feet together and knees bent outward, keeping your back straight. Hold your feet with your hands and gently press your knees toward the floor. This stretches the hips and thighs.'
+    },
+    { 
+        id: Date.now() + 18, 
+        text: '19', 
+        imageData: 'svg/other/kegal/ss (19).svg', 
+        title: 'lotus sex pose', 
+        description: 'Sit with your legs crossed and your feet placed on your thighs. Keep your back straight and focus on breathing deeply. This pose helps with flexibility in the hips and improves posture.'
+    },
+    { 
+        id: Date.now() + 19, 
+        text: '20', 
+        imageData: 'svg/other/kegal/ss (20).svg', 
+        title: 'scissors sex pose', 
+        description: 'Lie on your back with your legs extended out. Lift one leg to a 90-degree angle, then cross the other leg over it, forming a scissor motion. This engages the core, legs, and hip flexors.'
+    },
+    { 
+        id: Date.now() + 20, 
+        text: '21', 
+        imageData: 'svg/other/kegal/ss (21).svg', 
+        title: 'twisted cobra sex pose', 
+        description: 'Start in a tabletop position. Slowly arch your back and twist your torso to one side, lifting one arm towards the ceiling. This helps improve spinal flexibility and core strength.'
+    },
+    { 
+        id: Date.now() + 21, 
+        text: '22', 
+        imageData: 'svg/other/kegal/ss (22).svg', 
+        title: 'peacock sex pose', 
+        description: 'Stand with your feet together, then squat low to the ground. Extend your arms forward and hold the position to challenge your balance and strengthen your legs and core.'
+    },
+    { 
+        id: Date.now() + 22, 
+        text: '23', 
+        imageData: 'svg/other/kegal/ss (23).svg', 
+        title: 'swan sex pose', 
+        description: 'Begin by kneeling on the floor. Lower your chest toward the ground while keeping your arms extended forward and your back straight. This stretches your chest and shoulders.'
+    },
+    { 
+        id: Date.now() + 23, 
+        text: '24', 
+        imageData: 'svg/other/kegal/ss (24).svg', 
+        title: 'cherry blossom sex pose', 
+        description: 'Sit on the floor with your legs extended straight. Cross one leg over the other and gently twist your torso towards the bent knee. This helps stretch the spine and opens up the hips.'
+    },
+    { 
+        id: Date.now() + 24, 
+        text: '25', 
+        imageData: 'svg/other/kegal/ss (25).svg', 
+        title: 'peach sex pose', 
+        description: 'Stand with your feet wider than shoulder-width apart. Squat down while keeping your chest lifted and back straight. This strengthens the legs, glutes, and core while promoting balance.'
+    },
+    { 
+        id: Date.now() + 25, 
+        text: '26', 
+        imageData: 'svg/other/kegal/ss (26).svg', 
+        title: 'starfish sex pose', 
+        description: 'Lie flat on your back with your arms and legs spread wide, forming a starfish shape. Engage your core and maintain a neutral spine. This stretches the entire body and helps with muscle relaxation.'
+    },
+    { 
+        id: Date.now() + 26, 
+        text: '27', 
+        imageData: 'svg/other/kegal/ss (27).svg', 
+        title: 'fountain sex pose', 
+        description: 'Kneel on the floor and extend one leg behind you while leaning slightly forward. This stretch targets the hips, hamstrings, and quadriceps.'
     }
 ];
+
+
+
+
+
+    
 
     
 
