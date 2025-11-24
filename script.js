@@ -28,24 +28,46 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- State ---
     const colors = ['#e74c3c', '#3498db', '#2ecc71', '#f1c40f', '#9b59b6', '#1abc9c', '#e67e22', '#34495e', '#f39c12', '#d35400', '#c0392b', '#2980b9'];
 
-    const optionsData = [
-        { id: Date.now(), text: '1', imageData: 'svg/other/kegal/ss (1).svg', title: 'Option 1', description: 'This is the first option.' },
-        { id: Date.now() + 1, text: '2', imageData: 'svg/other/kegal/ss (2).svg', title: 'Option 2', description: 'This is the second option.' },
-        { id: Date.now() + 2, text: '3', imageData: 'svg/other/kegal/ss (3).svg', title: 'Option 3', description: 'This is the third option.' },
-        { id: Date.now() + 3, text: '4', imageData: 'svg/other/kegal/ss (4).svg', title: 'Option 4', description: 'This is the fourth option.' },
-        { id: Date.now() + 4, text: '5', imageData: 'svg/other/kegal/ss (5).svg', title: 'Option 5', description: 'This is the fifth option.' },
-        { id: Date.now() + 5, text: '6', imageData: 'svg/other/kegal/ss (6).svg', title: 'Option 6', description: 'This is the sixth option.' },
-        { id: Date.now() + 6, text: '7', imageData: 'svg/other/kegal/ss (7).svg', title: 'Option 7', description: 'This is the seventh option.' },
-        { id: Date.now() + 7, text: '8', imageData: 'svg/other/kegal/ss (8).svg', title: 'Option 8', description: 'This is the eighth option.' },
-        { id: Date.now() + 8, text: '9', imageData: 'svg/other/kegal/ss (9).svg', title: 'Option 9', description: 'This is the ninth option.' },
-        { id: Date.now() + 9, text: '10', imageData: 'svg/other/kegal/ss (10).svg', title: 'Option 10', description: 'This is the tenth option.' },
-        { id: Date.now() + 10, text: '11', imageData: 'svg/other/kegal/ss (11).svg', title: 'Option 11', description: 'This is the eleventh option.' },
-        { id: Date.now() + 11, text: '12', imageData: 'svg/other/kegal/ss (12).svg', title: 'Option 12', description: 'This is the twelfth option.' },
-        { id: Date.now() + 12, text: '13', imageData: 'svg/other/kegal/ss (13).svg', title: 'Option 13', description: 'This is the thirteenth option.' },
+    const optionsData22 = [
+        { id: Date.now(), text: '1', imageData: 'svg/other/kegal/ss (1).svg', title: 'superman sex pose', description: 'This is the first option.' },
+        { id: Date.now() + 1, text: '2', imageData: 'svg/other/kegal/ss (2).svg', title: 'basket sex pose', description: 'This is the second option.' },
+        { id: Date.now() + 2, text: '3', imageData: 'svg/other/kegal/ss (3).svg', title: 'workout sex pose', description: 'This is the third option.' },
+        { id: Date.now() + 3, text: '4', imageData: 'svg/other/kegal/ss (4).svg', title: 'ecstasy sex pose', description: 'This is the fourth option.' },
+        { id: Date.now() + 4, text: '5', imageData: 'svg/other/kegal/ss (5).svg', title: 'narcissus sex pose', description: 'This is the fifth option.' },
+        { id: Date.now() + 5, text: '6', imageData: 'svg/other/kegal/ss (6).svg', title: 'prison guard sex pose', description: 'This is the sixth option.' },
+        { id: Date.now() + 6, text: '7', imageData: 'svg/other/kegal/ss (7).svg', title: 'caramel sex pose', description: 'This is the seventh option.' },
+        { id: Date.now() + 7, text: '8', imageData: 'svg/other/kegal/ss (8).svg', title: 'frog sex pose', description: 'This is the eighth option.' },
+        { id: Date.now() + 8, text: '9', imageData: 'svg/other/kegal/ss (9).svg', title: 'yan_yang sex pose', description: 'This is the ninth option.' },
+        { id: Date.now() + 9, text: '10', imageData: 'svg/other/kegal/ss (10).svg', title: 'aquarius sex pose', description: 'This is the tenth option.' },
+        { id: Date.now() + 10, text: '11', imageData: 'svg/other/kegal/ss (11).svg', title: 'barbell sex pose', description: 'This is the eleventh option.' },
+        { id: Date.now() + 11, text: '12', imageData: 'svg/other/kegal/ss (12).svg', title: 'barbell sex pose', description: 'This is the twelfth option.' },
+        { id: Date.now() + 12, text: '13', imageData: 'svg/other/kegal/ss (13).svg', title: 'doggy sex pose', description: 'This is the thirteenth option.' },
         { id: Date.now() + 13, text: '14', imageData: 'svg/other/kegal/ss (14).svg', title: 'Option 14', description: 'This is the fourteenth option.' },
-        { id: Date.now() + 14, text: '15', imageData: 'svg/other/kegal/ss (15).svg', title: 'Option 15', description: 'This is the fifteenth option.' },
-        { id: Date.now() + 15, text: '16', imageData: 'svg/other/kegal/ss (16).svg', title: 'Option 16', description: 'This is the sixteenth option.' },
+        { id: Date.now() + 14, text: '15', imageData: 'svg/other/kegal/ss (15).svg', title: 'bud sex pose', description: 'This is the fifteenth option.' },
+        { id: Date.now() + 15, text: '16', imageData: 'svg/other/kegal/ss (16).svg', title: 'cello sex pose', description: 'This is the sixteenth option.' },
     ];
+
+const optionsData = [
+    { id: Date.now(), text: '1', imageData: 'svg/other/kegal/ss (1).svg', title: 'superman sex pose', description: 'This pose involves dynamic positioning, creating a powerful stance reminiscent of Superman. It combines strength and flexibility, offering an intense experience.' },
+    { id: Date.now() + 1, text: '2', imageData: 'svg/other/kegal/ss (2).svg', title: 'basket sex pose', description: 'This pose is inspired by the flexibility and balance needed in basketball. It involves creative leg positioning and offers a unique angle for intimate moments.' },
+    { id: Date.now() + 2, text: '3', imageData: 'svg/other/kegal/ss (3).svg', title: 'workout sex pose', description: 'A pose inspired by the stamina and strength required for a good workout. It engages the muscles while allowing for intimacy, perfect for those who enjoy physical challenges.' },
+    { id: Date.now() + 3, text: '4', imageData: 'svg/other/kegal/ss (4).svg', title: 'ecstasy sex pose', description: 'This passionate pose is designed to bring both partners into a heightened state of ecstasy. It’s all about connection, intensity, and rhythm.' },
+    { id: Date.now() + 4, text: '5', imageData: 'svg/other/kegal/ss (5).svg', title: 'narcissus sex pose', description: 'A mirror-like pose that draws inspiration from the myth of Narcissus. It focuses on self-admiration and mutual attraction, offering an intimate, reflective experience.' },
+    { id: Date.now() + 5, text: '6', imageData: 'svg/other/kegal/ss (6).svg', title: 'prison guard sex pose', description: 'This pose channels the energy of power dynamics, offering a blend of authority and submission. It’s a dominant pose for those who like to take charge in intimate situations.' },
+    { id: Date.now() + 6, text: '7', imageData: 'svg/other/kegal/ss (7).svg', title: 'caramel sex pose', description: 'A smooth and sensual pose that’s all about slow, deliberate movements. The caramel sex pose emphasizes deep connection and sweet, intimate moments.' },
+    { id: Date.now() + 7, text: '8', imageData: 'svg/other/kegal/ss (8).svg', title: 'frog sex pose', description: 'A fun, playful pose with a lot of flexibility. It takes inspiration from the posture of a frog and offers a unique way to explore intimacy in a carefree way.' },
+    { id: Date.now() + 8, text: '9', imageData: 'svg/other/kegal/ss (9).svg', title: 'yan_yang sex pose', description: 'A balanced and harmonious pose inspired by the ancient philosophy of yin and yang. This pose emphasizes balance, unity, and perfect symmetry between partners.' },
+    { id: Date.now() + 9, text: '10', imageData: 'svg/other/kegal/ss (10).svg', title: 'aquarius sex pose', description: 'An innovative and unconventional pose that takes inspiration from the eccentricity of the Aquarius sign. This one is all about uniqueness and exploring new ways to connect.' },
+    { id: Date.now() + 10, text: '11', imageData: 'svg/other/kegal/ss (11).svg', title: 'barbell sex pose', description: 'A strength-based pose that mimics the form of lifting a barbell. It’s designed for partners who enjoy physical challenges and need a strong, supportive stance.' },
+    { id: Date.now() + 11, text: '12', imageData: 'svg/other/kegal/ss (12).svg', title: 'barbell sex pose', description: 'A similar variation to the previous one, with an emphasis on strength, endurance, and muscle engagement. This pose works well for couples who are into fitness and love power dynamics.' },
+    { id: Date.now() + 12, text: '13', imageData: 'svg/other/kegal/ss (13).svg', title: 'doggy sex pose', description: 'A classic and versatile pose that allows for deep penetration and a range of variations. It’s great for partners who want to explore different angles and rhythms.' },
+    { id: Date.now() + 13, text: '14', imageData: 'svg/other/kegal/ss (14).svg', title: 'Option 14', description: 'A versatile pose that allows for a lot of creativity and customization. Perfect for couples looking for variety and new experiences in their intimate life.' },
+    { id: Date.now() + 14, text: '15', imageData: 'svg/other/kegal/ss (15).svg', title: 'bud sex pose', description: 'This pose emphasizes growth and connection, drawing inspiration from the idea of blossoming like a bud. It’s intimate and requires both partners to be fully present in the moment.' },
+    { id: Date.now() + 15, text: '16', imageData: 'svg/other/kegal/ss (16).svg', title: 'cello sex pose', description: 'A graceful and sensual pose inspired by the elegance of playing the cello. This one involves flowing movements and a lot of closeness, creating a harmonic and intimate atmosphere.' },
+];
+
+
+    
 
     let currentRotation = 0;
     let isSpinning = false;
