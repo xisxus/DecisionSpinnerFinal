@@ -29,22 +29,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const colors = ['#e74c3c', '#3498db', '#2ecc71', '#f1c40f', '#9b59b6', '#1abc9c', '#e67e22', '#34495e', '#f39c12', '#d35400', '#c0392b', '#2980b9'];
 
     const optionsData = [
-        { id: Date.now(), text: '1', imageData: 'svg/1.png', title: 'Option 1', description: 'This is the first option.' },
-        { id: Date.now() + 1, text: '2', imageData: 'svg/2.png', title: 'Option 2', description: 'This is the second option.' },
-        { id: Date.now() + 2, text: '3', imageData: 'svg/3.png', title: 'Option 3', description: 'This is the third option.' },
-        { id: Date.now() + 3, text: '4', imageData: 'svg/4.png', title: 'Option 4', description: 'This is the fourth option.' },
-        { id: Date.now() + 4, text: '5', imageData: 'svg/5.png', title: 'Option 5', description: 'This is the fifth option.' },
-        { id: Date.now() + 5, text: '6', imageData: 'svg/6.png', title: 'Option 6', description: 'This is the sixth option.' },
-        { id: Date.now() + 6, text: '7', imageData: 'svg/7.png', title: 'Option 7', description: 'This is the seventh option.' },
-        { id: Date.now() + 7, text: '8', imageData: 'svg/8.png', title: 'Option 8', description: 'This is the eighth option.' },
-        { id: Date.now() + 8, text: '9', imageData: 'svg/9.png', title: 'Option 9', description: 'This is the ninth option.' },
-        { id: Date.now() + 9, text: '10', imageData: 'svg/placeholder.png', title: 'Option 10', description: 'This is the tenth option.' },
-        { id: Date.now() + 10, text: '11', imageData: 'svg/placeholder.png', title: 'Option 11', description: 'This is the eleventh option.' },
-        { id: Date.now() + 11, text: '12', imageData: 'svg/placeholder.png', title: 'Option 12', description: 'This is the twelfth option.' },
-        { id: Date.now() + 12, text: '13', imageData: 'svg/placeholder.png', title: 'Option 13', description: 'This is the thirteenth option.' },
-        { id: Date.now() + 13, text: '14', imageData: 'svg/placeholder.png', title: 'Option 14', description: 'This is the fourteenth option.' },
-        { id: Date.now() + 14, text: '15', imageData: 'svg/placeholder.png', title: 'Option 15', description: 'This is the fifteenth option.' },
-        { id: Date.now() + 15, text: '16', imageData: 'svg/placeholder.png', title: 'Option 16', description: 'This is the sixteenth option.' },
+        { id: Date.now(), text: '1', imageData: 'svg/other/kegal/ss (1).svg', title: 'Option 1', description: 'This is the first option.' },
+        { id: Date.now() + 1, text: '2', imageData: 'svg/other/kegal/ss (2).svg', title: 'Option 2', description: 'This is the second option.' },
+        { id: Date.now() + 2, text: '3', imageData: 'svg/other/kegal/ss (3).svg', title: 'Option 3', description: 'This is the third option.' },
+        { id: Date.now() + 3, text: '4', imageData: 'svg/other/kegal/ss (4).svg', title: 'Option 4', description: 'This is the fourth option.' },
+        { id: Date.now() + 4, text: '5', imageData: 'svg/other/kegal/ss (5).svg', title: 'Option 5', description: 'This is the fifth option.' },
+        { id: Date.now() + 5, text: '6', imageData: 'svg/other/kegal/ss (6).svg', title: 'Option 6', description: 'This is the sixth option.' },
+        { id: Date.now() + 6, text: '7', imageData: 'svg/other/kegal/ss (7).svg', title: 'Option 7', description: 'This is the seventh option.' },
+        { id: Date.now() + 7, text: '8', imageData: 'svg/other/kegal/ss (8).svg', title: 'Option 8', description: 'This is the eighth option.' },
+        { id: Date.now() + 8, text: '9', imageData: 'svg/other/kegal/ss (9).svg', title: 'Option 9', description: 'This is the ninth option.' },
+        { id: Date.now() + 9, text: '10', imageData: 'svg/other/kegal/ss (10).svg', title: 'Option 10', description: 'This is the tenth option.' },
+        { id: Date.now() + 10, text: '11', imageData: 'svg/other/kegal/ss (11).svg', title: 'Option 11', description: 'This is the eleventh option.' },
+        { id: Date.now() + 11, text: '12', imageData: 'svg/other/kegal/ss (12).svg', title: 'Option 12', description: 'This is the twelfth option.' },
+        { id: Date.now() + 12, text: '13', imageData: 'svg/other/kegal/ss (13).svg', title: 'Option 13', description: 'This is the thirteenth option.' },
+        { id: Date.now() + 13, text: '14', imageData: 'svg/other/kegal/ss (14).svg', title: 'Option 14', description: 'This is the fourteenth option.' },
+        { id: Date.now() + 14, text: '15', imageData: 'svg/other/kegal/ss (15).svg', title: 'Option 15', description: 'This is the fifteenth option.' },
+        { id: Date.now() + 15, text: '16', imageData: 'svg/other/kegal/ss (16).svg', title: 'Option 16', description: 'This is the sixteenth option.' },
     ];
 
     let currentRotation = 0;
