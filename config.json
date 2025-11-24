@@ -1,0 +1,138 @@
+{
+  "appName": "Decision Spinner",
+  "version": "1.0.0",
+  "description": "An interactive spinning wheel application for decision making",
+  "colors": [
+    "#e74c3c",
+    "#3498db",
+    "#2ecc71",
+    "#f1c40f",
+    "#9b59b6",
+    "#1abc9c",
+    "#e67e22",
+    "#34495e",
+    "#f39c12",
+    "#d35400",
+    "#c0392b",
+    "#2980b9"
+  ],
+  "defaultOptions": [
+    {
+      "id": 1,
+      "text": "1",
+      "imageData": "svg/other/kegal/ss (1).svg", //"svg/1.png",
+      "title": "Option 1",
+      "description": "This is the first option."
+    },
+    {
+      "id": 2,
+      "text": "2",
+      "imageData": "svg/2.png",
+      "title": "Option 2",
+      "description": "This is the second option."
+    },
+    {
+      "id": 3,
+      "text": "3",
+      "imageData": "svg/3.png",
+      "title": "Option 3",
+      "description": "This is the third option."
+    },
+    {
+      "id": 4,
+      "text": "4",
+      "imageData": "svg/4.png",
+      "title": "Option 4",
+      "description": "This is the fourth option."
+    },
+    {
+      "id": 5,
+      "text": "5",
+      "imageData": "svg/5.png",
+      "title": "Option 5",
+      "description": "This is the fifth option."
+    },
+    {
+      "id": 6,
+      "text": "6",
+      "imageData": "svg/6.png",
+      "title": "Option 6",
+      "description": "This is the sixth option."
+    },
+    {
+      "id": 7,
+      "text": "7",
+      "imageData": "svg/7.png",
+      "title": "Option 7",
+      "description": "This is the seventh option."
+    },
+    {
+      "id": 8,
+      "text": "8",
+      "imageData": "svg/8.png",
+      "title": "Option 8",
+      "description": "This is the eighth option."
+    },
+    {
+      "id": 9,
+      "text": "9",
+      "imageData": "svg/9.png",
+      "title": "Option 9",
+      "description": "This is the ninth option."
+    },
+    {
+      "id": 10,
+      "text": "10",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 10",
+      "description": "This is the tenth option."
+    },
+    {
+      "id": 11,
+      "text": "11",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 11",
+      "description": "This is the eleventh option."
+    },
+    {
+      "id": 12,
+      "text": "12",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 12",
+      "description": "This is the twelfth option."
+    },
+    {
+      "id": 13,
+      "text": "13",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 13",
+      "description": "This is the thirteenth option."
+    },
+    {
+      "id": 14,
+      "text": "14",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 14",
+      "description": "This is the fourteenth option."
+    },
+    {
+      "id": 15,
+      "text": "15",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 15",
+      "description": "This is the fifteenth option."
+    },
+    {
+      "id": 16,
+      "text": "16",
+      "imageData": "svg/placeholder.png",
+      "title": "Option 16",
+      "description": "This is the sixteenth option."
+    }
+  ],
+  "wheelSettings": {
+    "spinDuration": 5000,
+    "minSpins": 5,
+    "maxSpins": 9
+  }
+}

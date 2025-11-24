@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Spinner - SVG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Decision Spinner</h1>
+
+        <div class="main-content">
+            <!-- WHEEL SECTION -->
+            <div class="wheel-section">
+                <div class="wheel-container">
+                    <div class="pointer"></div>
+                    <svg id="wheel" class="wheel" viewBox="0 0 500 500">
+                        <!-- Wheel slices will be generated here by JavaScript -->
+                    </svg>
+                </div>
+                <button id="spin-button">SPIN</button>
+                <div class="result" id="result"></div>
+            </div>
+
+            <!-- OPTIONS SECTION -->
+            <div class="options-section">
+                <div class="options-header">
+                    <h2>Options</h2>
+                    <button id="add-option-btn">+ Add Option</button>
+                </div>
+                <div id="options-list"></div>
+                <button id="update-wheel-btn">Update Wheel</button>
+            </div>
+        </div>
+        
+        <!-- LOGIN / LOGOUT BUTTONS -->
+        <div class="login-btn-container">
+            <button id="login-btn">Admin Login</button>
+            <button id="logout-btn" style="display:none; margin-left:10px;">Logout</button>
+        </div>
+    </div>
+
+    <!-- --- LOGIN MODAL --- -->
+    <div id="loginModal" class="login-modal">
+        <div class="login-modal-content">
+            <h2>Admin Login</h2>
+            <form class="login-form" id="loginForm">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter password" required>
+                </div>
+                <div class="login-error" id="loginError">Invalid username or password!</div>
+                <div class="login-buttons">
+                    <button type="button" class="login-btn login-btn-submit" id="loginSubmitBtn">Login</button>
+                    <button type="button" class="login-btn login-btn-cancel" id="loginCancelBtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- --- WINNER MODAL --- -->
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🎉 Winner! 🎉</h2>
+            </div>
+            <div class="modal-body">
+                <div style="display: flex; justify-content: space-around; align-items: center; ">
+                    <div>
+                        <img id="winnerImage" class="winner-image" src="" alt="Winner">
+                    </div>
+                    <div>
+                        <div class="winner-title" id="winnerTitle"></div>
+                        <div class="winner-description" id="winnerDescription"></div>
+                    </div>
+                </div>
+
+                <div class="winner-name" id="winnerName"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn btn-spin-again" id="spinAgainBtn">Spin Again</button>
+                <button class="modal-btn btn-close" id="closeModalBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
