@@ -460,10 +460,10 @@ const optionsData33 = [
                 // Image on top, clipped to circle
                 const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
                 image.setAttribute('href', option.imageData);
-                image.setAttribute('x', imageX - 30);
-                image.setAttribute('y', imageY - 30);
-                image.setAttribute('width', '60');
-                image.setAttribute('height', '60');
+                image.setAttribute('x', imageX - 25);
+                image.setAttribute('y', imageY - 25);
+                image.setAttribute('width', '50');
+                image.setAttribute('height', '50');
                 image.setAttribute('clip-path', `url(#${clipId})`);
                 image.setAttribute('transform', `rotate(${imageAngle - 90 + 180} ${imageX} ${imageY})`);
                 wheel.appendChild(image);
