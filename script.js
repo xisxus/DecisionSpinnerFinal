@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: Date.now() + 15, text: '16', imageData: 'svg/other/kegal/ss (16).svg', title: 'cello sex pose', description: 'This is the sixteenth option.' },
     ];
 
-const optionsData = [
+const optionsData33 = [
     { id: Date.now(), text: '1', imageData: 'svg/other/kegal/ss (1).svg', title: 'superman sex pose', description: 'This pose involves dynamic positioning, creating a powerful stance reminiscent of Superman. It combines strength and flexibility, offering an intense experience.' },
     { id: Date.now() + 1, text: '2', imageData: 'svg/other/kegal/ss (2).svg', title: 'basket sex pose', description: 'This pose is inspired by the flexibility and balance needed in basketball. It involves creative leg positioning and offers a unique angle for intimate moments.' },
     { id: Date.now() + 2, text: '3', imageData: 'svg/other/kegal/ss (3).svg', title: 'workout sex pose', description: 'A pose inspired by the stamina and strength required for a good workout. It engages the muscles while allowing for intimacy, perfect for those who enjoy physical challenges.' },
@@ -66,6 +66,123 @@ const optionsData = [
     { id: Date.now() + 15, text: '16', imageData: 'svg/other/kegal/ss (16).svg', title: 'cello sex pose', description: 'A graceful and sensual pose inspired by the elegance of playing the cello. This one involves flowing movements and a lot of closeness, creating a harmonic and intimate atmosphere.' },
 ];
 
+
+
+
+    const optionsData = [
+    { 
+        id: Date.now(), 
+        text: '1', 
+        imageData: 'svg/other/kegal/ss (1).svg', 
+        title: 'superman sex pose', 
+        description: 'Lie face down on the floor, stretch your arms out in front of you, and lift both your legs and arms off the ground, keeping your core engaged. This strengthens your back, glutes, and shoulders.' 
+    },
+    { 
+        id: Date.now() + 1, 
+        text: '2', 
+        imageData: 'svg/other/kegal/ss (2).svg', 
+        title: 'basket sex pose', 
+        description: 'Stand with your feet wide apart, bend your knees, and lower into a squat position. Keep your back straight, chest lifted, and hold the position for a few seconds, engaging your thighs and glutes.' 
+    },
+    { 
+        id: Date.now() + 2, 
+        text: '3', 
+        imageData: 'svg/other/kegal/ss (3).svg', 
+        title: 'workout sex pose', 
+        description: 'Start by standing tall, then lower into a squat position, keeping your feet shoulder-width apart. As you squat down, engage your core and glutes, then return to standing. This helps strengthen the lower body.' 
+    },
+    { 
+        id: Date.now() + 3, 
+        text: '4', 
+        imageData: 'svg/other/kegal/ss (4).svg', 
+        title: 'ecstasy sex pose', 
+        description: 'Begin by kneeling on the floor with your knees wide apart. Lower your hips toward the floor, maintaining a straight back. This helps stretch the hips and engage the core.' 
+    },
+    { 
+        id: Date.now() + 4, 
+        text: '5', 
+        imageData: 'svg/other/kegal/ss (5).svg', 
+        title: 'narcissus sex pose', 
+        description: 'Sit on the floor with your legs extended forward. Bend one leg and bring it across your body, keeping your spine straight. This helps with flexibility and stretches the lower back and hips.' 
+    },
+    { 
+        id: Date.now() + 5, 
+        text: '6', 
+        imageData: 'svg/other/kegal/ss (6).svg', 
+        title: 'prison guard sex pose', 
+        description: 'Stand tall with feet shoulder-width apart. Bend slightly at the knees and engage your core. Keep your arms close to your sides and focus on balance and posture.' 
+    },
+    { 
+        id: Date.now() + 6, 
+        text: '7', 
+        imageData: 'svg/other/kegal/ss (7).svg', 
+        title: 'caramel sex pose', 
+        description: 'Sit with your legs bent and feet flat on the floor. Hold your arms out in front for balance, and slowly lean back to stretch your lower back while keeping your core engaged.' 
+    },
+    { 
+        id: Date.now() + 7, 
+        text: '8', 
+        imageData: 'svg/other/kegal/ss (8).svg', 
+        title: 'frog sex pose', 
+        description: 'Squat low to the floor with your feet wider than shoulder-width. Place your hands on the floor for support and gently push your knees outward to stretch your hips.' 
+    },
+    { 
+        id: Date.now() + 8, 
+        text: '9', 
+        imageData: 'svg/other/kegal/ss (9).svg', 
+        title: 'yan_yang sex pose', 
+        description: 'Stand with your feet shoulder-width apart. Gently rotate your hips from side to side while maintaining a straight back and engaging your core. This helps to improve hip flexibility and balance.' 
+    },
+    { 
+        id: Date.now() + 9, 
+        text: '10', 
+        imageData: 'svg/other/kegal/ss (10).svg', 
+        title: 'aquarius sex pose', 
+        description: 'Sit with your legs bent and feet flat on the floor. Gently twist your torso to one side, keeping your back straight, and hold for a few seconds before switching sides. This stretches the spine and enhances flexibility.' 
+    },
+    { 
+        id: Date.now() + 10, 
+        text: '11', 
+        imageData: 'svg/other/kegal/ss (11).svg', 
+        title: 'barbell sex pose', 
+        description: 'Stand with your feet shoulder-width apart. Lower your body into a squat position while keeping your back straight and core tight. This is great for strengthening the legs and core.' 
+    },
+    { 
+        id: Date.now() + 11, 
+        text: '12', 
+        imageData: 'svg/other/kegal/ss (12).svg', 
+        title: 'barbell sex pose', 
+        description: 'Repeat the barbell pose, but add a slight incline to your squat by lifting one leg behind you as you squat. This variation works your glutes and hamstrings more intensely.' 
+    },
+    { 
+        id: Date.now() + 12, 
+        text: '13', 
+        imageData: 'svg/other/kegal/ss (13).svg', 
+        title: 'doggy sex pose', 
+        description: 'Get into a tabletop position with your knees under your hips and hands under your shoulders. Then, extend one leg out behind you, keeping your core engaged. This helps stretch the hips and glutes.' 
+    },
+    { 
+        id: Date.now() + 13, 
+        text: '14', 
+        imageData: 'svg/other/kegal/ss (14).svg', 
+        title: 'Option 14', 
+        description: 'Assume a standing position with feet shoulder-width apart. Extend one leg forward and squat down, holding the position briefly to engage the quads and glutes. Repeat on the other side for balanced muscle engagement.' 
+    },
+    { 
+        id: Date.now() + 14, 
+        text: '15', 
+        imageData: 'svg/other/kegal/ss (15).svg', 
+        title: 'bud sex pose', 
+        description: 'Sit on the floor with your legs bent and feet flat. Place your hands on the floor behind you for balance, and slowly lean back while keeping your core tight. This stretches the lower back and hips.' 
+    },
+    { 
+        id: Date.now() + 15, 
+        text: '16', 
+        imageData: 'svg/other/kegal/ss (16).svg', 
+        title: 'cello sex pose', 
+        description: 'Stand with your feet shoulder-width apart. Extend your arms overhead, keeping your chest lifted and core engaged. Slowly lean to one side, stretching the side of your body, and hold for a few seconds before switching sides.' 
+    }
+];
 
     
 
