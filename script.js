@@ -69,7 +69,7 @@ const optionsData33 = [
 
 
 
-    const optionsData = [
+    const optionsData44 = [
     { 
         id: Date.now(), 
         text: '1', 
@@ -182,8 +182,8 @@ const optionsData33 = [
         title: 'cello sex pose', 
         description: 'Stand with your feet shoulder-width apart. Extend your arms overhead, keeping your chest lifted and core engaged. Slowly lean to one side, stretching the side of your body, and hold for a few seconds before switching sides.' 
     },
-//];
-//    const optionsData = [
+];
+   const optionsData = [
     { 
         id: Date.now() + 16, 
         text: '17', 
